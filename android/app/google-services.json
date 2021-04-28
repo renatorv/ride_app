@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365035769408",
+    "project_id": "flutter-uber-clone-cf3d8",
+    "storage_bucket": "flutter-uber-clone-cf3d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365035769408:android:7b86d38ad21a963f05d9a5",
+        "android_client_info": {
+          "package_name": "com.renatorv.rideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365035769408-e76fj5qcjgu27t4v1je8p93h71a1mftp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG7lL4jfjlvm94GvXS_Hi0mqom2IdLvls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365035769408-e76fj5qcjgu27t4v1je8p93h71a1mftp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
