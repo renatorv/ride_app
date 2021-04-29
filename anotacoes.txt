@@ -1,4 +1,11 @@
 Adcionar suporte ao IOS => 9 minutos e 53 segundos da aula 005
 
+Configuração dos mapas => aula 13
 
-=> continuar da aula 8
+Permissões: Aula 16 => 9 minutos
+
+
+=> continuar da aula 19
+
+
+https://developers.google.com/maps/documentation/geocoding/start

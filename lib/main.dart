@@ -1,9 +1,18 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:ride_app/all_screens/login_screen.dart';
+import 'package:ride_app/all_screens/main_screen.dart';
+import 'package:ride_app/all_screens/registration_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(MyApp());
 }
+
+DatabaseReference userRef = FirebaseDatabase.instance.reference().child('users');
 
 class MyApp extends StatelessWidget {
   @override
@@ -15,7 +24,12 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Brand Bold',
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      initialRoute: MainScreen.idScreen,
+      routes: {
+        RegistrationScreen.idScreen: (context) => RegistrationScreen(),
+        LoginScreen.idScreen: (context) => LoginScreen(),
+        MainScreen.idScreen: (context) => MainScreen(),
+      },
     );
   }
 }
