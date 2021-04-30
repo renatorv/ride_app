@@ -41,6 +41,8 @@ dependencies:
   geolocator: ^6.1.1 # => versão do curso
   # http: ^0.13.2
   http: ^0.12.2 # => versão do curso
+  provider: ^5.0.0
+  # provider: ^4.3.2+2 # => versão do curso
 
 dev_dependencies:
   flutter_test:
