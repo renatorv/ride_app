@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
+import 'package:ride_app/all_screens/search_screen.dart';
 import 'package:ride_app/all_widgets/divider_widget.dart';
 import 'package:ride_app/assistants/assistant_methods.dart';
 import 'package:ride_app/data_handler/app_data.dart';
@@ -214,25 +215,35 @@ class _MainScreenState extends State<MainScreen> {
                       style: TextStyle(fontSize: 20, fontFamily: 'Brand-Bold'),
                     ),
                     SizedBox(height: 20),
-                    Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(5),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black54,
-                            blurRadius: 6,
-                            spreadRadius: 0.5,
-                            offset: Offset(0.7, 0.7),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SeachScreen(),
                           ),
-                        ],
-                      ),
-                      child: Row(
-                        children: [
-                          Icon(Icons.search, color: Colors.yellowAccent),
-                          SizedBox(width: 10),
-                          Text('Search Drop off'),
-                        ],
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(5),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black54,
+                              blurRadius: 6,
+                              spreadRadius: 0.5,
+                              offset: Offset(0.7, 0.7),
+                            ),
+                          ],
+                        ),
+                        child: Row(
+                          children: [
+                            Icon(Icons.search, color: Colors.yellowAccent),
+                            SizedBox(width: 10),
+                            Text('Search Drop off'),
+                          ],
+                        ),
                       ),
                     ),
                     SizedBox(height: 24),

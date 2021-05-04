@@ -5,7 +5,7 @@ Configuração dos mapas => aula 13
 Permissões: Aula 16 => 9 minutos
 
 
-=> continuar da aula 19
+=> continuar da aula 21
 
 
 https://developers.google.com/maps/documentation/geocoding/start
