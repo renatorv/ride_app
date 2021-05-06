@@ -5,7 +5,25 @@ Configuração dos mapas => aula 13
 Permissões: Aula 16 => 9 minutos
 
 
-=> continuar da aula 21
-
-
 https://developers.google.com/maps/documentation/geocoding/start
+
+
+Ativar Places API
+developers.google.com/places/web-service/autocomplete
+
+Abreviações de Países
+https://abbreviations.yourdictionary.com/articles/country-abbreviations.html
+
+
+google directions
+https://developers.google.com/maps/documentation/directions/overview
+
+https://console.cloud.google.com/apis/ => ativar Directions API
+
+
+=> continuar da aula 26
+
+
+
+appvolusfrotas.volus.com.br.appvolusfrotas
+appvolusfrotas.volus.com.br.appvolusfrotas
